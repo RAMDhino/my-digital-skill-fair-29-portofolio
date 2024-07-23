@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Portofolio - Raul Ahmad Maulidhino</title>
+</head>
+<body>
+    <section></section>
+    <div class="layer">
+        <h2>
+            HELLO!<br/>
+            I'M RAUL
+        </h2>
+        <h1>
+            FRONTEND<br/>
+            DEVELOPER
+        </h1>
+    </div>
+    <section class="section-2">
+        <h1>My Project</h1>
+        <div class="wrapper">
+            <a href="https://tumbas-yuk-landing-page.vercel.app" target="_blank" class="card">
+                <img src="img/tumbas-yuk-landing-page-preview.png" alt="TumbasYuk! Project Preview" />
+                <p>TumbasYuk! Simple Landing Page Project</p>
+            </a>
+        </div>
+    </section>
+    <section class="section-3">
+        <h1>Contact Me!</h1>
+        <div class="wrapper">
+            <div class="contact-info">
+                <h3>Email:</h3>
+                <p>raul.maulidhino@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <h3>Phone:</h3>
+                <p>+62 822 4343 6637</p>
+            </div>
+            <div class="contact-info">
+                <h3>Address:</h3>
+                <p>Central Java, Indonesia</p>
+            </div>
+            <div class="contact-info">
+                <h3>Social Media:</h3>
+                <a href="https://www.instagram.com/raul.maulidhino/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/raulahmadm/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy; 2024 Raul Ahmad M.</div>
+        <div class="license">Images by <a href="https://unsplash.com/">Unsplash</a></div>
+    </section>
+    <script>
+
+      let layer = document.querySelector(".layer");
+      window.addEventListener("scroll", function() {
+        let value = window.scrollY;
+        layer.style.left = value + "px";
+      });
+    
+    </script>
+</body>
+</html>
